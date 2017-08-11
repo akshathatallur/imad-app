@@ -9,6 +9,20 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+var articleOne =
+{
+ title: 'Article one | Akshatha Tallur',
+ heading: 'Article one',
+ date: '11 August 2017',
+ content: `
+          <p> 
+            THis is the content for my first article.
+            </p> `
+ 
+};
+
+
+
 app.get('/article-one',function(req,res){
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
     
