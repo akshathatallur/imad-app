@@ -10,7 +10,7 @@ var articles ={
   
  title: 'Article one | Akshatha Tallur',
  heading: 'Article one',
- date: '11 August 2017',
+ date: '13 August 2017',
  content: `
           <p> 
             THis is the content for my first article.
@@ -21,7 +21,7 @@ var articles ={
     
  title: 'Article two | Akshatha Tallur',
  heading: 'Article Two',
- date: '11 August 2017',
+ date: '13 August 2017',
  content: `
           <p> 
             THis is the content for my second article.
@@ -33,7 +33,7 @@ var articles ={
     
  title: 'Article Three | Akshatha Tallur',
  heading: 'Article Three',
- date: '11 August 2017',
+ date: '13 August 2017',
  content: `
           <p> 
             THis is the content for my third article.
