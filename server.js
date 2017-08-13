@@ -29,7 +29,7 @@ var articles = {
  
 
   },
-  `article-three`: {
+   `article-three`: {
     
  title: 'Article Three | Akshatha Tallur',
  heading: 'Article Three',
