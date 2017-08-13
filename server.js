@@ -41,8 +41,6 @@ var articles = {
  
 
   }
-
-
 };
 
 
