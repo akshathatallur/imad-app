@@ -42,7 +42,7 @@ var title = data.title;
 var date = data.date;
 var heading = data.heading;
 var content = data.content;
-var htmlTemplate = 
+var htmlTemplate = `
 <html>
 <head>
 <title>
@@ -69,7 +69,7 @@ ${content}
 </div>
 </body>
 </html>
-;
+`;
 return htmlTemplate;
 }
 
@@ -95,5 +95,5 @@ res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 
 var port = 80;
 app.listen(port, function () {
-console.log(IMAD course app listening on port ${port}!);
+console.log(`IMAD course app listening on port ${port}!`);
 });
